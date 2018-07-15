@@ -135,8 +135,8 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
 			  0, 0, 0, 1;
 
 	//set the acceleration noise components
-	float noise_ax = 5;
-	float noise_ay = 5;
+	float noise_ax = 9;
+	float noise_ay = 9;
 
 
 	float dt_2 = dt * dt;
